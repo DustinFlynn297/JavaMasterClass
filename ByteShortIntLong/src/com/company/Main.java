@@ -25,5 +25,15 @@ public class Main {
         System.out.println("Long Minimum value = " + myMinLongValue);
         System.out.println("Long Maximum value = " + myMaxLongValue);
 
+//        casting, put the primitive type before the statement, it converts to the declared type.
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+
+        byte myByte = 124;
+        short myShort = 12345;
+
+        int myInt = 1231145;
+        long myLong = (long) 50000 + 10 * (myByte + myInt + myShort);
+        System.out.println(myLong);
+
     }
 }
