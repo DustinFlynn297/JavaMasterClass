@@ -8,5 +8,11 @@ public class Main {
         int myMaxIntValue = Integer.MAX_VALUE;
         System.out.println("Integer Minimum value = " + myMinIntValue);
         System.out.println("Integer Maximum value = " + myMaxIntValue);
+
+        byte myMinByteValue = Byte.MIN_VALUE;
+        byte myMaxByteValue = Byte.MAX_VALUE;
+        System.out.println("Byte Minimum value = " + myMinByteValue);
+        System.out.println("Byte Maximum value = " + myMaxByteValue);
+
     }
 }
