@@ -19,5 +19,14 @@ public class Main {
         result = result % 3; // the remainder of 4%3 = 1
         System.out.println("4 % 3 = " + result);
 
+        result++;
+        System.out.println("1 + 1 = " + result);
+
+        result--;
+        System.out.println("2 - 1 = " + result);
+
+        result += 2;
+        System.out.println(" 1 + 2 = " + result);
+
     }
 }
