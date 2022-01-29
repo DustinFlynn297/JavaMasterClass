@@ -20,5 +20,9 @@ public class Main {
         System.out.println("My Int Value = " + myIntValue);
         System.out.println("My Double Value = "+myDoubleValue);
         System.out.println("My Float Value = "+myFloatValue);
+
+        double pounds = 200d;
+        double poundsToKilos = pounds * .45359237d;
+        System.out.println("Converted kilograms 200 pounds is "+poundsToKilos + " kilos");
     }
 }
