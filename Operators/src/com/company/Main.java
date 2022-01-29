@@ -28,5 +28,11 @@ public class Main {
         result += 2;
         System.out.println(" 1 + 2 = " + result);
 
+        boolean isAlien = false;
+        if (isAlien == false) {
+            System.out.println("It is not an alien!");
+        }
+
+
     }
 }
