@@ -7,5 +7,10 @@ public class Main {
         char myUniCodeChar = '\u0044';
         System.out.println(myChar);
         System.out.println(myUniCodeChar);
+        char myCopyrightChar = '\u00A9';
+        System.out.println(myCopyrightChar);
+
+        boolean isCustomerOverTwentyOne = true;
+
     }
 }
