@@ -23,6 +23,6 @@ public class Main {
 
         double pounds = 200d;
         double poundsToKilos = pounds * .45359237d;
-        System.out.println("Converted kilograms 200 pounds is "+poundsToKilos + " kilos");
+        System.out.println("Converted kilograms: 200 pounds is "+poundsToKilos + " kilos");
     }
 }
