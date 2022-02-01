@@ -43,5 +43,10 @@ public class Main {
             System.out.println("Greater than second top score and less than 100");
         }
 
+        boolean isCar = false;
+        if (isCar = true) {
+            System.out.println("This is not supposed to happen");
+        }
+
     }
 }
