@@ -5,5 +5,6 @@ public class Main {
         System.out.println("Miles = " + miles);
 
         SpeedConverter.printConversion(10.5);
+        MethodOverloading.calcFeetAndInchesToCentimeters(6, 4);
     }
 }
